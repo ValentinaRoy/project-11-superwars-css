@@ -5,6 +5,12 @@ body{
   background: linear-gradient(90deg, rgba(26,26,100,1) 0%, rgba(69,58,164,1) 40%, rgba(123,111,222,1) 100%);
   text-align: center;
 }
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container{
   background: #b474aba1;
   width:1000px;
@@ -18,7 +24,7 @@ body{
   font-size: 70px;
   padding: 20px;
  
-  margin-top: 70px;
+  
 }
 h1{
   color: white;
